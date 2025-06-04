@@ -1,0 +1,69 @@
+/*RESET*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 10px;
+  height: 70px;
+  padding-top: 10px;
+  margin-left: 20px;
+  display: block;
+}
+
+main {
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+/* HEADER */
+
+.container-top {
+  display: flex;
+  align-items: center
+}
+
+.container-top .logo {
+  margin: 5px;
+}
+
+.container-top .logo2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* VARIE TASK */
+
+.blank {
+  height: 60px;
+}
+
+.container-main {
+  background-color: white;
+  max-width: 1200px;
+  text-align: center;
+  display: inline-block;
+  border: 3px green;
+
+}
+
+/* ADD */
+
+.adding {
+  height: 80px;
+  width: 100%;
+  align-items: center;
+}
