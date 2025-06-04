@@ -115,16 +115,41 @@ nav ul li .li-box-2 {
 /* HR */
 
 .blk {
-  padding: 0 180px;
-  height: 4px;
-  background-color: whitesmoke;
+  height: 0;
+  border-bottom: 3px solid whitesmoke;
 
 }
 
 /* BIG SECTION */
 
+ul {
+  margin: 0;
+
+}
+
 .section {
   height: auto;
   padding-left: 40px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+
+.arrow-down {
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  display: inline-block;
+}
+
+.container-main .section .ul-1 {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
   text-align: left;
 }
