@@ -122,15 +122,12 @@ nav ul li .li-box-2 {
 
 /* BIG SECTION */
 
-ul {
-  margin: 0;
-
-}
 
 .section {
   height: auto;
   padding-left: 40px;
   padding-top: 40px;
+  padding-bottom: 40px;
   text-align: left;
 }
 
@@ -148,8 +145,116 @@ ul {
 .container-main .section .ul-1 {
   display: inline-block;
   padding-bottom: 10px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: bolder;
   margin: auto;
   text-align: left;
+}
+
+
+
+
+
+.container-main .section .check {
+  vertical-align: -5px;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 25px;
+  width: 25px;
+  border: 2px solid green;
+  border-radius: 50%;
+  color: green;
+  display: inline-block;
+
+}
+
+.container-main .section .cross {
+  vertical-align: -5px;
+  margin-right: 5px;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  border: 2px solid red;
+  border-radius: 50%;
+  color: red;
+  display: inline-block;
+
+}
+
+/* BADGES */
+
+.badge-edit {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 8px 8px;
+  color: white;
+  background-color: rgb(68, 172, 242);
+  text-align: center;
+}
+
+.badge-q1 {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 8px 8px;
+  color: white;
+  background-color: rgb(156, 113, 224);
+  text-align: center;
+}
+
+.badge-rec {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 8px 8px;
+  color: white;
+  background-color: rgb(99, 192, 168);
+  text-align: center;
+}
+
+.badge-mob {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 8px 8px;
+  color: white;
+  background-color: rgb(244, 158, 48);
+  text-align: center;
+}
+
+.badge-web {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 8px 8px;
+  color: white;
+  background-color: rgb(216, 99, 159);
+  text-align: center;
+}
+
+.badge-sal {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 8px 8px;
+  color: white;
+  background-color: rgb(177, 200, 44);
+  text-align: center;
+}
+
+/* FINE BADGES */
+
+
+.container-main .section div .text-li {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.container-main .section div {
+
+  font-weight: 600;
+  display: inline-block;
+
+
+}
+
+.container-main .section li {
+  padding: 10px;
 }
