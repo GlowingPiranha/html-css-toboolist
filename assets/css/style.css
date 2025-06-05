@@ -1,4 +1,8 @@
 /*RESET*/
+:root {
+  --bg-color: whitesmoke;
+}
+
 
 * {
   margin: 0;
@@ -8,8 +12,8 @@
 
 /* BODY */
 body {
-  background-color: whitesmoke;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  background-color: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -31,7 +35,7 @@ li {
 
 main {
   margin: 0 auto;
-  background-color: whitesmoke;
+  background-color: var(--bg-color);
   align-items: center;
 }
 
@@ -39,7 +43,7 @@ main {
 
 .container-top {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .container-top .logo {
@@ -90,33 +94,35 @@ nav ul li {
 }
 
 nav ul li .li-box {
-  height: 35px;
+
   text-align: center;
   font-size: 15px;
   display: inline-block;
   margin: 5px;
-  padding: 10px;
+  padding: 8px;
   border-radius: 7px;
   background-color: rgb(68, 172, 242);
   color: white;
   font-weight: 800;
+  cursor: pointer;
 }
 
 nav ul li .li-box-2 {
-  height: 35px;
+
   text-align: center;
   padding: 5px;
   border-radius: 7px;
   font-weight: 800;
   color: rgb(214, 216, 215);
   border: 3px solid rgb(214, 216, 215);
+  cursor: pointer;
 }
 
 /* HR */
 
 .blk {
   height: 0;
-  border-bottom: 3px solid whitesmoke;
+  border-bottom: 3px solid var(--bg-color);
 
 }
 
@@ -158,7 +164,6 @@ nav ul li .li-box-2 {
 .container-main .section .check {
   vertical-align: -5px;
   text-align: center;
-  margin-top: 5px;
   margin-right: 5px;
   height: 25px;
   width: 25px;
